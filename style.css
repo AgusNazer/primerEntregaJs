@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
 /* NAVBAR */
 .nav-color{
     background-color:rgb(69, 155, 235);
@@ -40,13 +45,33 @@ a:hover{
     border-color: #fff;
 }
 
+.fas{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+.cart-btn{
+
+    font-weight: bold;
+    text-decoration: none;
+
+    color: red;
+    margin-right: 20px;
+}
+.cart-btn:hover{
+    color:red;
+   font-size: 20px;
+}
+
 /* MAIN SECTION */
 
 .productos{
+    border: 1px solid red;
     justify-items: center;
 
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    transform: translateY();
 }
 
 
